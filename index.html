@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Awais Akhter">
+    <meta name="description" content="The Workout Center Showcase Site">
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>The Workout Center | workout.com</title>
+</head>
+<body>
+    <header>
+
+        <div class="left">
+           <figure>
+            <img src="img/logo.png" alt="Workout Center Logo" title="The Workout Center">
+            <figcaption>The Workout Center</figcaption>
+           </figure>
+        </div>
+        <nav class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Write an email</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1>Join the Best Fitness Center of Pakistan!</h1>
+            <form action="https://httpbin.org/get" method="get">
+
+                <p>
+                    <input class="font" type="text" name="name" id="form" placeholder="Enter your name" required>
+                </p>
+                <p>
+                    <input class="font" type="email" name="email" id="form" placeholder="Enter your email" required>
+                </p>
+                <p>
+                    <input class="font" type="text" name="address" id="form" placeholder="Enter your address">
+                </p>
+                <p>
+                    <select class="font" name="age" id="age">
+                        <option selected="true" disabled="disabled">Your Age Group</option>
+                        <option value="1">12-18</option>
+                        <option value="2">18-30</option>
+                        <option value="3">30-45</option>
+                        <option value="4">45-60</option>
+                        <option value="5">60 Plus</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="gender">Select Gender: </label>
+                    <input type="radio" name="gender" id="gen" value="1"> Male
+                    <input type="radio" name="gender" id="gen" value="2"> Female
+                    <input type="radio" name="gender" id="gen" value="3"> Other
+                </p>
+                <p id="sub">
+                    <button type="submit" class="btn" value="1">Submit</button>
+                    <button type="reset" class="btn" value="2">Reset</button>
+                </p>
+
+
+
+
+            </form>
+        </section>
+    </main>
+
+
+
+
+
+</body>
+</html>

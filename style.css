@@ -1,0 +1,116 @@
+/* CSS Reset */
+
+body{
+    color:aliceblue;
+    margin:0;
+    padding: 0;
+    font-family: 'Baloo Bhai', cursive;
+    background: url(img/3.jpg) no-repeat center center/cover;
+}
+
+
+/* Styling the Header */
+.left{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 2px;
+}
+
+.left img{
+    width: 95px;
+    filter: invert(100%);
+}
+
+.left figure figcaption{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.mid{
+    /* border: 2px solid greenyellow; */
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.navbar{
+    display: inline-block;
+    
+}
+
+.navbar li{
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+.navbar li a:hover, .navbar li .active{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 18px;
+}
+
+.right{
+    /* border: 2px solid blueviolet; */
+    position: absolute;
+    top: 20px;
+    right: 34px;
+}
+
+.btn{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 16px;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid aliceblue;
+    border-radius: 18px;
+    padding: 5px 10px;
+    margin: 10px 15px;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    border: 1px solid black;
+    color: black;
+}
+
+
+/* Styling the Main */
+
+.container{
+    border: 2px solid whitesmoke;
+    margin: 20px 50px;
+    padding: 40px 50px;
+    width: 50%;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+   
+}
+
+.container h1{
+    font-size: 34px;
+    text-align: center;
+}
+
+.font{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 40px;
+    width: 50%;
+}
+
+#age{
+    width: 57%;
+}
